@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Company Name-->
@@ -10,30 +12,36 @@
     <!--Tailwind link-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!--Font Awesome link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--style css link-->
     <link rel="stylesheet" href="./style/style.css">
 
 
 </head>
+
 <body>
 
     <!--bannar section-->
 
-    <div class="parent-div flex container mx-auto justify-between border-2 border-green-700 ">
-        <div class="left-site border-2 border-red-700">
-            <h1 class=" manrope-font text-[80px] font-extrabold">It's good <br>
-              tea time at The <br> Tea House</h1>
-            <p class="text-[18px] my-9">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
-            <button class="w-[200px] h-[64px] text-xl text-white bg-slate-600 rounded-lg">Explore More</button>
+    <div class="parent-div container mx-auto flex flex-col p-8 md:flex-row justify-between py-6">
+        <div class="left-site">
+            <h1 class=" manrope-font text-[78px] font-extrabold line">It's good <br>
+                tea time at The<br>Tea House</h1>
+            <p class="text-[18px] my-6">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your
+                Taste Buds.</p>
+            <button
+                class="w-[200px] h-[64px] text-xl text-white bg-gradient-to-r from-[#ff8938] to-[#FF0000] rounded-lg">Explore
+                More <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span> </button>
         </div>
-        <div class="right-site border-2 border-blue-800">
+        <div class="right-site relative">
             <img class="relative mt-18" src="./images/banner.png" alt="">
 
-            <div class=" w-[255px] h-[100px] flex border-3 border-yellow-400">
-               <span><i class="fa-solid fa-star"></i></span>
-                <div>
-                    <h2>5.00</h2>
+            <div class=" bg-white w-[270px] h-[100px] flex items-center justify-center shadow-2xl rounded-lg absolute -mt-26 ml-30">
+                <span class=" text-5xl "><i class="fa-solid fa-star text-amber-300"></i></span>
+                <div class="ml-4 ">
+                    <h2 class="text-5xl font-bold">5.00</h2>
                     <p>Trust Pilot Ratings</p>
                 </div>
 
@@ -43,6 +51,7 @@
 
     </div>
 
-    
+
 </body>
+
 </html>
